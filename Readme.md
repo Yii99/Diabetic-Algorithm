@@ -45,6 +45,6 @@ Loss function: sparse cross-entropy
 Accuracy on test set: 91% (RDR), 84%(NRDR)
 #### Explainability  
 Grad-CAM Result
-![deepv](https://github.com/Yii99/Diabetic-Algorithm/blob/main/gc.png)  
+![deepv](https://github.com/Yii99/Diabetic-Algorithm/blob/main/grc.png)  
 E.g., for RDR images, our network mainly focuses on hard exudates on retinal fundus, which is reasonable. 
 
