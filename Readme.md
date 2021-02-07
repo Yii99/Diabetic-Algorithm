@@ -26,7 +26,7 @@ Indian Diabetic Retinopathy Image Dataset (IDRID)
 ResNet is a kind of convolutional neural network with skip-connection, which has shown high accuracy for classification tasks.   
 Our network is a simplified version of ResNetV2.
 
-<img width="400" height="450" src="https://github.com/Yii99/Diabetic-Algorithm/blob/main/restnet.png"/> 
+<img width="430" height="450" src="https://github.com/Yii99/Diabetic-Algorithm/blob/main/restnet.png"/> 
 
 Loss function: sparse cross-entropy
 ### Metrics
@@ -42,7 +42,7 @@ Loss function: sparse cross-entropy
 #### Confusion matrix
 <img width="450" height="450" src="https://github.com/Yii99/Diabetic-Algorithm/blob/main/cm.png"/> 
 
-Accuracy on test set: 91% (RNR), 82%(NRNR)
+Accuracy on test set: 91% (RDR), 84%(NRDR)
 #### Explainability  
 Grad-CAM Result
 ![deepv](https://github.com/Yii99/Diabetic-Algorithm/blob/main/gc.png)  
