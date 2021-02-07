@@ -25,7 +25,7 @@ Indian Diabetic Retinopathy Image Dataset (IDRID)
 ### Model
 ResNet is a kind of convolutional neural network with skip-connection, which has shown high accuracy for classification tasks.   
 Our network is a simplified version of ResNetV2.
-![deepv](https://github.com/LEGO999/Diabetic-Retinopathy-Detection/blob/master/restnet.png)  
+![accuracy](https://github.com/LEGO999/Diabetic-Retinopathy-Detection/blob/master/restnet.png)  
 Loss function: sparse cross-entropy
 ### Metrics
 * Accuracy
