@@ -31,26 +31,15 @@ Loss function: sparse cross-entropy
 * Accuracy
 * Confusion Matrix
 
-### Features
-* Logging with abseil
-* Configuration with gin instead of hard coding
-* AutoGraph, average epoch time: 11.92s --> 7.18s
-* Deep visualization(Grad-CAM)
-* Grid search for hyperparameter tuning(TensorBoard)
-
 ### Training and evaluation
 * Use Adam optimizer to train our network for 300 epochs
 * Save checkpoint for every 5 epochs
-* Hyperparameter tuning - grid search
-  * learning rate: 1e-2, 1e-3, 1e-4 and 1e-5
-  * batch size: 2 and 4   
-![accuracy](https://github.com/LEGO999/Diabetic-Retinopathy-Detection/blob/master/hp2.png) 
-* Based on above best hyperparameters, it's still underfitting , use small learning rate=1e-5 and stronger data augmentation for further training(50 epochs)
+* batch_size=8
 
 ### Results
 #### Confusion matrix
 ![accuracy](https://github.com/Yii99/Diabetic-Algorithm/blob/main/cm.png)  
-Balance accuracy on test set: 82.2%
+Accuracy on test set: 91% (RNR), 82%(NRNR)
 #### Explainability  
 Grad-CAM Result
 ![deepv](https://github.com/LEGO999/Diabetic-Retinopathy-Detection/blob/master/dpv.png)  
